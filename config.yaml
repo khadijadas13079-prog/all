@@ -1,0 +1,17 @@
+# config.yaml
+app:
+  name: My Application
+  version: 1.0.0
+  port: 3000
+  environment: development
+
+database:
+  host: localhost
+  port: 5432
+  name: myapp
+  username: user
+  password: password
+
+logging:
+  level: info
+  file: app.log
